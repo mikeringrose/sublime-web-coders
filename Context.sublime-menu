@@ -1,0 +1,10 @@
+[{
+  "caption": "Encoder",
+  "children": [{
+    "caption": "Encode",
+    "command": "encode"
+  }, {
+    "caption": "Decode",
+    "command": "decode"
+  }]
+}]

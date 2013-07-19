@@ -1,0 +1,10 @@
+[
+  { 
+    "keys": ["ctrl+shift+x"], 
+    "command": "encoder"
+  }
+  , { 
+    "keys": ["super+shift+x"], 
+    "command": "decoder"
+  }  
+]

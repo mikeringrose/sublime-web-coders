@@ -1,0 +1,5 @@
+[
+  { 
+    "keys": ["ctrl+shift+x"], "command": "encode_uri"
+  }
+]

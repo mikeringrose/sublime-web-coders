@@ -52,8 +52,8 @@ def find_resource(filename, start_path):
 def read_file(filename):
   retval = None
   if os.path.exists(filename):
-    retval = open(filename, 'rb').read()
-  return (mimetypes.guess_type(filename)[0], retval)
+    retval = (mimetypes.guess_type(filename)[0], open(filename, 'rb').read())
+  return retval
 
 def read_url(url):
   resp = urlopen(url)

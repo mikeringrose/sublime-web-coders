@@ -56,5 +56,8 @@ def read_file(filename):
   return retval
 
 def read_url(url):
-  resp = urlopen(url)
-  return (resp.getheader('Content-Type'), resp.read())
+  try:
+    resp = urlopen(url)
+    return (resp.getheader('Content-Type'), resp.read())
+  except:
+    return None
